@@ -4,7 +4,8 @@ import 'package:sportsapp/core/utils/app_colors.dart';
 import 'package:sportsapp/core/widgets/product_card.dart';
 import 'package:sportsapp/feature/profile/profile_screen.dart';
 import 'package:sportsapp/feature/settings/setting_screen.dart';
-import 'package:sportsapp/screens/shop_screen.dart';
+import 'package:sportsapp/feature/shop/shop_screen.dart';
+
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -108,7 +109,7 @@ class Home extends StatelessWidget {
               child: GridView.count(
                 crossAxisCount: 2,
                 crossAxisSpacing: 15,
-                mainAxisSpacing: 15,
+                mainAxisSpacing: 10,
                 childAspectRatio: .65,
                 children: [
                   ProductCard(
